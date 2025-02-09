@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 490ad4cf3406d024885d7a5d253cae20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6951024468026420779
+    second: orcEnemy_0
+  - first:
+      213: -7826562679084431740
+    second: orcEnemy_1
+  - first:
+      213: -1881317947545438953
+    second: orcEnemy_2
+  - first:
+      213: -7753148836019014038
+    second: orcEnemy_3
+  - first:
+      213: 6518336626910920800
+    second: orcEnemy_4
+  - first:
+      213: 9122701905030954152
+    second: orcEnemy_5
+  - first:
+      213: -3076424083449260509
+    second: orcEnemy_6
+  - first:
+      213: -7994254491605306470
+    second: orcEnemy_7
+  - first:
+      213: 1911435238186431790
+    second: orcEnemy_8
+  - first:
+      213: -1541272885440281647
+    second: orcEnemy_9
+  - first:
+      213: 8676136126224608878
+    second: orcEnemy_10
+  - first:
+      213: 60909023898608580
+    second: orcEnemy_11
+  - first:
+      213: 143674556137815064
+    second: orcEnemy_12
+  - first:
+      213: 230718097391378015
+    second: orcEnemy_13
+  - first:
+      213: 1785424675838895642
+    second: orcEnemy_14
+  - first:
+      213: -89352507658181137
+    second: orcEnemy_15
+  - first:
+      213: -6313498563756362331
+    second: orcEnemy_16
+  - first:
+      213: -4404032341864845816
+    second: orcEnemy_17
+  - first:
+      213: 4178153975335155252
+    second: orcEnemy_18
+  - first:
+      213: -401133537356751254
+    second: orcEnemy_19
+  - first:
+      213: 6622127323075897247
+    second: orcEnemy_20
+  - first:
+      213: -1885169425230007634
+    second: orcEnemy_21
+  - first:
+      213: 9195620812262678026
+    second: orcEnemy_22
+  - first:
+      213: 5000710210921311615
+    second: orcEnemy_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orcEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 209
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d19c3e0310098f90800000000000000
+      internalID: -6951024468026420779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 209
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486c7d4d5b6726390800000000000000
+      internalID: -7826562679084431740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 209
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715bcfa5b4734e5e0800000000000000
+      internalID: -1881317947545438953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 209
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a667a5a2638476490800000000000000
+      internalID: -7753148836019014038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 209
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060817560a8c57a50800000000000000
+      internalID: 6518336626910920800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 209
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac36296c095a9e70800000000000000
+      internalID: 9122701905030954152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 145
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326dc8f78985e45d0800000000000000
+      internalID: -3076424083449260509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 145
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a937bcf25e3be0190800000000000000
+      internalID: -7994254491605306470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25344fc838c68a10800000000000000
+      internalID: 1911435238186431790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 145
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d304690a7c4c9ae0800000000000000
+      internalID: -1541272885440281647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 145
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e2d82b6d3d76870800000000000000
+      internalID: 8676136126224608878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 145
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3a71d3f6468d000800000000000000
+      internalID: 60909023898608580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 81
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c3bd16f3f6ef100800000000000000
+      internalID: 143674556137815064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e544e13eca33300800000000000000
+      internalID: 230718097391378015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 81
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a162898784a17c810800000000000000
+      internalID: 1785424675838895642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 81
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe56e312e5e82cef0800000000000000
+      internalID: -89352507658181137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 81
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5fc51b182f168a0800000000000000
+      internalID: -6313498563756362331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 81
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e60db2bebb1e2c0800000000000000
+      internalID: -4404032341864845816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436fcbc57e8cbf930800000000000000
+      internalID: 4178153975335155252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6eda5e4c23ee6af0800000000000000
+      internalID: -401133537356751254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 17
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97e85df6b586eb50800000000000000
+      internalID: 6622127323075897247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 17
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2fcb3556886d5e0800000000000000
+      internalID: -1885169425230007634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 17
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e1b1488686d9f70800000000000000
+      internalID: 9195620812262678026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orcEnemy_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 17
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d22a22177166540800000000000000
+      internalID: 5000710210921311615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      orcEnemy_0: -6951024468026420779
+      orcEnemy_1: -7826562679084431740
+      orcEnemy_10: 8676136126224608878
+      orcEnemy_11: 60909023898608580
+      orcEnemy_12: 143674556137815064
+      orcEnemy_13: 230718097391378015
+      orcEnemy_14: 1785424675838895642
+      orcEnemy_15: -89352507658181137
+      orcEnemy_16: -6313498563756362331
+      orcEnemy_17: -4404032341864845816
+      orcEnemy_18: 4178153975335155252
+      orcEnemy_19: -401133537356751254
+      orcEnemy_2: -1881317947545438953
+      orcEnemy_20: 6622127323075897247
+      orcEnemy_21: -1885169425230007634
+      orcEnemy_22: 9195620812262678026
+      orcEnemy_23: 5000710210921311615
+      orcEnemy_3: -7753148836019014038
+      orcEnemy_4: 6518336626910920800
+      orcEnemy_5: 9122701905030954152
+      orcEnemy_6: -3076424083449260509
+      orcEnemy_7: -7994254491605306470
+      orcEnemy_8: 1911435238186431790
+      orcEnemy_9: -1541272885440281647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

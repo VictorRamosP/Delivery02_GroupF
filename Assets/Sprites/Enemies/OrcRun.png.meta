@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 07ebb91333188ce4c8b326489767384a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3367430724232471625
+    second: OrcRun_0
+  - first:
+      213: -5202046130462768458
+    second: OrcRun_1
+  - first:
+      213: 284090980726163050
+    second: OrcRun_2
+  - first:
+      213: 8300988983042879874
+    second: OrcRun_3
+  - first:
+      213: 8493901038947400288
+    second: OrcRun_4
+  - first:
+      213: -4580825887638336465
+    second: OrcRun_5
+  - first:
+      213: -7699991718124733750
+    second: OrcRun_6
+  - first:
+      213: -4701755490360156155
+    second: OrcRun_7
+  - first:
+      213: 451878955408013728
+    second: OrcRun_8
+  - first:
+      213: -7598813450058570614
+    second: OrcRun_9
+  - first:
+      213: 2029478237165031542
+    second: OrcRun_10
+  - first:
+      213: 6995683641734312569
+    second: OrcRun_11
+  - first:
+      213: -5423243231267123046
+    second: OrcRun_12
+  - first:
+      213: -2005184177037631253
+    second: OrcRun_13
+  - first:
+      213: -9137329961958007149
+    second: OrcRun_14
+  - first:
+      213: -6632283181702105663
+    second: OrcRun_15
+  - first:
+      213: -9095885173154617670
+    second: OrcRun_16
+  - first:
+      213: -6303310531824781660
+    second: OrcRun_17
+  - first:
+      213: 7869381747034454281
+    second: OrcRun_18
+  - first:
+      213: -5614627703968084447
+    second: OrcRun_19
+  - first:
+      213: -3685949667940506452
+    second: OrcRun_20
+  - first:
+      213: 8763544093762243900
+    second: OrcRun_21
+  - first:
+      213: 7964161595460785599
+    second: OrcRun_22
+  - first:
+      213: 1766299721799833750
+    second: OrcRun_23
+  - first:
+      213: -7259645547327763451
+    second: OrcRun_24
+  - first:
+      213: 8782168462626410576
+    second: OrcRun_25
+  - first:
+      213: -84292363448872859
+    second: OrcRun_26
+  - first:
+      213: 2804168154853237483
+    second: OrcRun_27
+  - first:
+      213: -7885381217184760325
+    second: OrcRun_28
+  - first:
+      213: 3451534110921774693
+    second: OrcRun_29
+  - first:
+      213: 670677802444637021
+    second: OrcRun_30
+  - first:
+      213: -7703507464058545053
+    second: OrcRun_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrcRun_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 209
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944ec9bf6648bbe20800000000000000
+      internalID: 3367430724232471625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 209
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b242902b9e9ec7b0800000000000000
+      internalID: -5202046130462768458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 209
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a664316ed3b41f300800000000000000
+      internalID: 284090980726163050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 209
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281b3b2ef79033370800000000000000
+      internalID: 8300988983042879874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 209
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06af7c70ef560e570800000000000000
+      internalID: 8493901038947400288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 209
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c476d1023ad60c0800000000000000
+      internalID: -4580825887638336465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 209
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acab9b32452242590800000000000000
+      internalID: -7699991718124733750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 209
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5002750ea4200ceb0800000000000000
+      internalID: -4701755490360156155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 145
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9b19a0485654600800000000000000
+      internalID: 451878955408013728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 145
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a846cca6d679b8690800000000000000
+      internalID: -7598813450058570614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6709b9d34b72a2c10800000000000000
+      internalID: 2029478237165031542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 145
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972b59a1539a51160800000000000000
+      internalID: 6995683641734312569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 145
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9018c5c305ccb4b0800000000000000
+      internalID: -5423243231267123046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 145
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0207a6d972c24e0800000000000000
+      internalID: -2005184177037631253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 145
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e95fdafcea13180800000000000000
+      internalID: -9137329961958007149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 145
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c539d8e59565f3a0800000000000000
+      internalID: -6632283181702105663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6606880ace4c180800000000000000
+      internalID: -9095885173154617670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6fa99b7742688a0800000000000000
+      internalID: -6303310531824781660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_18
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 81
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9097ee15109a53d60800000000000000
+      internalID: 7869381747034454281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 81
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e4aeec9d5d412b0800000000000000
+      internalID: -5614627703968084447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 81
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4ef665e40e8dcc0800000000000000
+      internalID: -3685949667940506452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 81
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dcb2a0cec5e9970800000000000000
+      internalID: 8763544093762243900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 81
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb59f3f66c2668e60800000000000000
+      internalID: 7964161595460785599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_23
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 81
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69810cc1d38238810800000000000000
+      internalID: 1766299721799833750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c484486de804b90800000000000000
+      internalID: -7259645547327763451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0505c74dfa780e970800000000000000
+      internalID: 8782168462626410576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 17
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5601a53ca8884def0800000000000000
+      internalID: -84292363448872859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 17
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be26d7864186ae620800000000000000
+      internalID: 2804168154853237483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 17
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd3a2fbf8f719290800000000000000
+      internalID: -7885381217184760325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 17
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566d2a3acff46ef20800000000000000
+      internalID: 3451534110921774693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 17
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53c37d68e9be4900800000000000000
+      internalID: 670677802444637021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrcRun_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 17
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c5830c6c4a71590800000000000000
+      internalID: -7703507464058545053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OrcRun_0: 3367430724232471625
+      OrcRun_1: -5202046130462768458
+      OrcRun_10: 2029478237165031542
+      OrcRun_11: 6995683641734312569
+      OrcRun_12: -5423243231267123046
+      OrcRun_13: -2005184177037631253
+      OrcRun_14: -9137329961958007149
+      OrcRun_15: -6632283181702105663
+      OrcRun_16: -9095885173154617670
+      OrcRun_17: -6303310531824781660
+      OrcRun_18: 7869381747034454281
+      OrcRun_19: -5614627703968084447
+      OrcRun_2: 284090980726163050
+      OrcRun_20: -3685949667940506452
+      OrcRun_21: 8763544093762243900
+      OrcRun_22: 7964161595460785599
+      OrcRun_23: 1766299721799833750
+      OrcRun_24: -7259645547327763451
+      OrcRun_25: 8782168462626410576
+      OrcRun_26: -84292363448872859
+      OrcRun_27: 2804168154853237483
+      OrcRun_28: -7885381217184760325
+      OrcRun_29: 3451534110921774693
+      OrcRun_3: 8300988983042879874
+      OrcRun_30: 670677802444637021
+      OrcRun_31: -7703507464058545053
+      OrcRun_4: 8493901038947400288
+      OrcRun_5: -4580825887638336465
+      OrcRun_6: -7699991718124733750
+      OrcRun_7: -4701755490360156155
+      OrcRun_8: 451878955408013728
+      OrcRun_9: -7598813450058570614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

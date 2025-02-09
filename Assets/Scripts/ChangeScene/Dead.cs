@@ -5,6 +5,9 @@ public class Dead : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene("Ending");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene("Ending");
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,40 +12,39 @@ public class PlayerMovement : MonoBehaviour
     private float Speed = 5.0f;
 
     private bool _isMoving;
-    PlayerInput _input;
     Rigidbody2D _rigidbody;
 
     private int score = 2000;
 
     void Start()
     {
-        _input = GetComponent<PlayerInput>();
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    public void OnMove(InputValue value)
     {
-        Move();
+        // Read value from control, the type depends on what
+        // type of controls the action is bound to
+        var inputVal = value.Get<Vector2>();
 
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            PlayerPrefs.SetInt("Score", score);
-            score = PlayerPrefs.GetInt("Score");
-        }
-    }
+        Vector2 velocity = inputVal * Speed;
+        _rigidbody.linearVelocity = velocity;
 
-    private void Move()
-    {
-        Vector2 direction = new Vector2(_input.MovementHorizontal, _input.MovementVertical) 
-            * (_input.Sneak ? Speed/2 : Speed);
-        _rigidbody.linearVelocity = direction;
-        _isMoving = direction.magnitude > 0.01f;
+        _isMoving = (velocity.magnitude > 0.01f);
 
-        if (_isMoving) LookAt((Vector2)transform.position + direction);
+        if (_isMoving) LookAt((Vector2)transform.position + velocity);
         else transform.rotation = Quaternion.identity;
     }
 
-    void LookAt(Vector2 targetPosition)
+    // NOTE: InputSystem: "SaveScore" action becomes "OnSaveScore" method
+    public void OnSaveScore()
+    {
+        // Usage example on how to save score
+        PlayerPrefs.SetInt("Score", score);
+        score = PlayerPrefs.GetInt("Score");
+    }
+
+    private void LookAt(Vector2 targetPosition)
     {
         float angle = 0.0f;
         Vector3 relative = transform.InverseTransformPoint(targetPosition);
