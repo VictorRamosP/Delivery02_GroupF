@@ -29,4 +29,13 @@ public class PatrolEnemy : MonoBehaviour
     {
         transform.Rotate(0, 180, 0);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall") && EdgeDetected())
+        {
+            Flip();
+        }
+       
+    }
 }
