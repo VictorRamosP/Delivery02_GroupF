@@ -5,17 +5,22 @@ public class PatrolEnemy : MonoBehaviour
     public Transform EdgedetectionPoint;
     public LayerMask WhatIsWall;
     public float Speed;
+    private VisionDetector _visionDetector;
 
+    private void Awake()
+    {
+        _visionDetector = GetComponent<VisionDetector>();
+    }
     void Update()
     {
-        if (!EdgeDetected()) Flip();
+        if (!EdgeDetected() && _visionDetector.currentState == VisionDetector.EnemyState.Patrolling) Flip();
 
         Move();
     }
 
     private bool EdgeDetected()
     {
-        RaycastHit2D hit = Physics2D.Raycast(EdgedetectionPoint.position, Vector2.right, 1.5f, WhatIsWall);
+        RaycastHit2D hit = Physics2D.Raycast(EdgedetectionPoint.position, transform.right, 1.5f, WhatIsWall);
 
         return (hit.collider == null);
     }

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class VisionDetector : MonoBehaviour
 {
+    public enum EnemyState { Patrolling, Chasing }
+    public EnemyState currentState = EnemyState.Patrolling;
+
     public LayerMask WhatIsPlayer;
     public LayerMask WhatIsVisible;
     public float DetectionRange;
@@ -27,18 +30,36 @@ public class VisionDetector : MonoBehaviour
 
     void Update()
     {
+        switch (currentState) 
+        {
+            case EnemyState.Patrolling:
+                Patrol();
+            break;
+
+            case EnemyState.Chasing:
+                Chase();
+            break;
+        }
+    }
+    public void ChangeState(EnemyState newState) 
+    {
+        currentState = newState;
+    }
+    private void Patrol() {
         Transform[] detectedPlayers = DetectPlayers();
         if (detectedPlayers.Length > 0)
         {
             Transform player = detectedPlayers[0];
-
-                currentTarget = player;
-                _chasePlayer.SetTarget(player);
-                Debug.Log("Player detected");
-                Alert.SetActive(true);
-            
+            currentTarget = player;
+            _chasePlayer.SetTarget(player);
+            Debug.Log("Player detected");
+            Alert.SetActive(true);
+            ChangeState(EnemyState.Chasing);
         }
-        else if (currentTarget != null)
+    }
+    public void Chase() 
+    {
+        if (currentTarget != null)
         {
             float distance = Vector2.Distance(transform.position, currentTarget.position);
             if (distance > maxdistance)
@@ -48,10 +69,10 @@ public class VisionDetector : MonoBehaviour
 
                 _chasePlayer.SetTarget(null);
                 currentTarget = null;
+                ChangeState(EnemyState.Patrolling);
             }
         }
     }
-
     private Transform[] DetectPlayers()
     {
         List<Transform> players = new List<Transform>();
