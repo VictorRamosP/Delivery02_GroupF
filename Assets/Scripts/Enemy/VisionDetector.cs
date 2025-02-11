@@ -11,7 +11,7 @@ public class VisionDetector : MonoBehaviour
     public ChasePlayer _chasePlayer;
     private Transform currentTarget;
     public float maxdistance;
-
+    public GameObject Alert;
 
     private void OnDrawGizmos()
     {
@@ -35,6 +35,7 @@ public class VisionDetector : MonoBehaviour
                 currentTarget = player;
                 _chasePlayer.SetTarget(player);
                 Debug.Log("Player detected");
+                Alert.SetActive(true);
             
         }
         else if (currentTarget != null)
@@ -43,6 +44,8 @@ public class VisionDetector : MonoBehaviour
             if (distance > maxdistance)
             {
                 Debug.Log("Sa perdio");
+                Alert.SetActive(false);
+
                 _chasePlayer.SetTarget(null);
                 currentTarget = null;
             }
@@ -52,7 +55,7 @@ public class VisionDetector : MonoBehaviour
     private Transform[] DetectPlayers()
     {
         List<Transform> players = new List<Transform>();
-        if (PlayerInRange(ref players) && PlayerInAngle(ref players))
+        if (PlayerInRange(ref players) && PlayerInAngle(ref players) && !this)
         {
             PlayerIsVisible(ref players);
         }
