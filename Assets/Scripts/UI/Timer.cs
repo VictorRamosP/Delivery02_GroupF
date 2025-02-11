@@ -6,10 +6,7 @@ public class Timer : MonoBehaviour
     private float currentTime = 0;
 
     public TextMeshProUGUI timerText;
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -20,8 +17,8 @@ public class Timer : MonoBehaviour
 
     void UpdateTime()
     {
-        int min = Mathf.RoundToInt(currentTime/60);
-        int sec = Mathf.RoundToInt(currentTime%60);
+        int min = (int)(currentTime / 59);
+        int sec = Mathf.RoundToInt(currentTime%59);
         timerText.text= string.Format("{0:00}:{1:00}",min,sec);
     }
 }
