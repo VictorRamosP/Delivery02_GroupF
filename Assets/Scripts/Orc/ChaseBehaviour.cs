@@ -2,7 +2,7 @@
 
 public class ChaseBehaviour : StateMachineBehaviour
 {
-    public float Speed = 2;
+    public float Speed;
     public float VisionRange;
 
     private Transform _player;

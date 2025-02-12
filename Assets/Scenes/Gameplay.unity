@@ -1025,6 +1025,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orc (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5707353047030145019, guid: f4d2c91896615994e8c72d50ebabac72,
+        type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 8608625408889418136, guid: f4d2c91896615994e8c72d50ebabac72,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1248,7 +1253,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.382
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6967,6 +6972,11 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4377247995666640197, guid: 1817a904a1e44a74594870d89a74246b,
+        type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 5686669518484938365, guid: 1817a904a1e44a74594870d89a74246b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7161,7 +7171,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.753
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7261,7 +7271,6 @@ MonoBehaviour:
   SFXSource: {fileID: 757106308}
   Background: {fileID: 8300000, guid: 2c0e7df3f23c29a4db31ecfe6b1f0e86, type: 3}
   Detection: {fileID: 8300000, guid: 47b857fe559ff6e4f839dff84ef29c8f, type: 3}
-  Running: {fileID: 0}
 --- !u!4 &1952244836
 Transform:
   m_ObjectHideFlags: 0
@@ -10630,6 +10639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orc
       objectReference: {fileID: 0}
+    - target: {fileID: 5707353047030145019, guid: f4d2c91896615994e8c72d50ebabac72,
+        type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 8608625408889418136, guid: f4d2c91896615994e8c72d50ebabac72,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10712,6 +10726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CollisionDetection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377247995666640197, guid: 1817a904a1e44a74594870d89a74246b,
+        type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 1024
       objectReference: {fileID: 0}
     - target: {fileID: 5686669518484938365, guid: 1817a904a1e44a74594870d89a74246b,
         type: 3}

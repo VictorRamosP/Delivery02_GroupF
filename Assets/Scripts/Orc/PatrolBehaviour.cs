@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class PatrolBehaviour : StateMachineBehaviour
@@ -22,27 +24,27 @@ public class PatrolBehaviour : StateMachineBehaviour
         _rb = animator.GetComponent<Rigidbody2D>(); // Obtener el Rigidbody2D
         
         var transform = animator.transform;
-        Vector2 newDirection = new Vector2(Random.Range(-1f, 1f) * 4, Random.Range(-1f, 1f) * 4);
-        if (!EdgeDetected(transform.position, transform.up)) {
-            if (!EdgeDetected(transform.position, transform.right)) {
-                newDirection = Vector2.up + Vector2.right;
-                UnityEngine.Debug.Log("UR");                     
-            }else if (!EdgeDetected(transform.position, -transform.right)) {
-                newDirection = Vector2.up + Vector2.left;
-                UnityEngine.Debug.Log("UL");                          
-            }                         
-        }else if (!EdgeDetected(transform.position, -transform.up)) {
-            if (!EdgeDetected(transform.position, transform.right)) {
-                newDirection = Vector2.down + Vector2.right;
-                UnityEngine.Debug.Log("DR");                        
-            }else if (!EdgeDetected(transform.position, -transform.right)) {
-                newDirection = Vector2.down + Vector2.left;    
-                UnityEngine.Debug.Log("DL");                    
-            }                       
+        
+
+        Vector2[] possibleDirections = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
+        List<Vector2> validDirections = new List<Vector2>();
+
+        foreach (var direction in possibleDirections) 
+        {
+            if (!EdgeDetected(transform.position, direction)) 
+            {
+                validDirections.Add(direction);
+            }
         }
 
-        Vector2 startPos = animator.transform.position;
-        _target = startPos + newDirection;
+        if (validDirections.Count > 0) 
+        {
+            _target = (Vector2)transform.position + validDirections[UnityEngine.Random.Range(0, validDirections.Count)] * 4;
+        }
+        else 
+        {
+             _target = transform.position;
+        }
     }
 
     // OnStateUpdate is called on each Update frame between
@@ -78,6 +80,6 @@ public class PatrolBehaviour : StateMachineBehaviour
     private bool EdgeDetected(Vector3 pos, Vector3 _direction)
     {
         RaycastHit2D hit = Physics2D.Raycast(pos, _direction, RaycastDistance, WhatIsWall);
-        return (hit.collider == null);
+        return (hit.collider != null);
     }
 }

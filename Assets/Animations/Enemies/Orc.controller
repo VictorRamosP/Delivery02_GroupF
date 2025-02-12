@@ -28,7 +28,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StayTime: 3
   VisionRange: 4
-  Speed: 10
+  Speed: 5
+  RaycastDistance: 0
+  WhatIsWall:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &-6698119678891243294
 MonoBehaviour:
   m_ObjectHideFlags: 1
