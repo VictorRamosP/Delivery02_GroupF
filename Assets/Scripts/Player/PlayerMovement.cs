@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     private int score = 2000;
 
-    AudioManager AudioManager;
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();

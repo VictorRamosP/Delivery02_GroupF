@@ -6,9 +6,7 @@ using UnityEngine;
 public class EnemyAlarm : MonoBehaviour
 {
     SpriteRenderer _alarmRenderer;
-    public void Awake()
-    {
-    }
+
     public void PlayerDetected()
     {
         ChangeColor(Color.red);

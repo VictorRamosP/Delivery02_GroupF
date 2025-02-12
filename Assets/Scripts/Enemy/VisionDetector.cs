@@ -15,12 +15,7 @@ public class VisionDetector : MonoBehaviour
     private Transform currentTarget;
     public float maxdistance;
     public GameObject Alert;
-    AudioManager audioManager;
 
-    public void Awake()
-    {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-    }
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(transform.position, DetectionRange);
@@ -59,7 +54,6 @@ public class VisionDetector : MonoBehaviour
             _chasePlayer.SetTarget(player);
             Debug.Log("Player detected");
             Alert.SetActive(true);
-            audioManager.PlaySFX(audioManager.Detection);
             ChangeState(EnemyState.Chasing);
         }
     }
