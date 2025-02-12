@@ -28,7 +28,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StayTime: 3
   VisionRange: 4
-  Speed: 2
+  Speed: 10
 --- !u!114 &-6698119678891243294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -186,7 +186,7 @@ AnimatorStateMachine:
     m_Position: {x: 360, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8035796207993243660}
-    m_Position: {x: 510, y: 0, z: 0}
+    m_Position: {x: 490, y: 10, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6cfdd8e05786d84ba70a8e69d2dbe68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  Speed: 10
   VisionRange: 4
 --- !u!1102 &5434194316394775534
 AnimatorState:

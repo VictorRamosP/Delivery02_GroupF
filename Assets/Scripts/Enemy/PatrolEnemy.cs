@@ -6,6 +6,7 @@ public class PatrolEnemy : MonoBehaviour
     public LayerMask WhatIsWall;
     public float Speed;
     private VisionDetector _visionDetector;
+    public float RaycastDistance;
 
     private void Awake()
     {
@@ -20,7 +21,7 @@ public class PatrolEnemy : MonoBehaviour
 
     private bool EdgeDetected()
     {
-        RaycastHit2D hit = Physics2D.Raycast(EdgedetectionPoint.position, transform.right, 1.5f, WhatIsWall);
+        RaycastHit2D hit = Physics2D.Raycast(EdgedetectionPoint.position, transform.right, RaycastDistance, WhatIsWall);
 
         return (hit.collider == null);
     }
