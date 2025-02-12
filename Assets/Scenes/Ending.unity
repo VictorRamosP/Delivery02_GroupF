@@ -1172,9 +1172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 52629076}
   SFXSource: {fileID: 482923617}
-  Background: {fileID: 8300000, guid: 7e0981fa254a3e9468fd44bd697e78c8, type: 3}
-  Jump: {fileID: 0}
-  Coin: {fileID: 0}
+  Background: {fileID: 8300000, guid: 2dc2790a924650744a0e13596ed13cb1, type: 3}
+  Detection: {fileID: 0}
 --- !u!4 &966790814
 Transform:
   m_ObjectHideFlags: 0
