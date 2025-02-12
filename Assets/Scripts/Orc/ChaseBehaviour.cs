@@ -7,13 +7,18 @@ public class ChaseBehaviour : StateMachineBehaviour
 
     private Transform _player;
     private Rigidbody2D _rb;
-
+    AudioManager audioManager;
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     // OnStateEnter is called when a transition starts and
     // the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         _player = GameObject.FindGameObjectWithTag("Player").transform;
         _rb = animator.GetComponent<Rigidbody2D>(); // Obtener el Rigidbody2D
+        audioManager.PlaySFX(audioManager.Detection);
     }
 
     // OnStateUpdate is called on each Update frame between

@@ -149,7 +149,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.12
+  m_Volume: 0.806
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1172,9 +1172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 52629076}
   SFXSource: {fileID: 482923617}
-  Background: {fileID: 8300000, guid: 7e0981fa254a3e9468fd44bd697e78c8, type: 3}
-  Jump: {fileID: 0}
-  Coin: {fileID: 0}
+  Background: {fileID: 8300000, guid: 2cf33113e22ff5b4081aff0a79709ac1, type: 3}
+  Detection: {fileID: 0}
+  Running: {fileID: 0}
 --- !u!4 &966790814
 Transform:
   m_ObjectHideFlags: 0

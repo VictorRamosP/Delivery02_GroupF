@@ -6,8 +6,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     public AudioClip Background;
-    public AudioClip Jump;
-    public AudioClip Coin;
+    public AudioClip Detection;
+    public AudioClip Running;
 
     private void Start()
     {

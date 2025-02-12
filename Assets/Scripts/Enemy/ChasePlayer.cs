@@ -13,7 +13,6 @@ public class ChasePlayer : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _visionDetector = GetComponent<VisionDetector>();
     }
-
     private void Update()
     {
         if (target != null && _visionDetector.currentState == VisionDetector.EnemyState.Chasing)
